@@ -18,7 +18,7 @@ foreach ($worker in $func_worker) {
     }
     cd $project_dir
 
-    Write-Output "funcvm use $func_ver" > .func-version
+    funcvm use $func_ver --local
     func new --name HttpTrigger1 --template "HTTP trigger" --authlevel function
 
     cd ../
