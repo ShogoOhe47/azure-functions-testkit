@@ -5,9 +5,9 @@
       "name": "documents",
       "direction": "in",
       "leaseCollectionName": "leases",
-      "connectionStringSetting": "",
-      "databaseName": "",
-      "collectionName": "",
+      "connectionStringSetting": "CosmosDBConnectionString",
+      "databaseName": "Tasks",
+      "collectionName": "Items",
       "createLeaseCollectionIfNotExists": true
     }
   ]
