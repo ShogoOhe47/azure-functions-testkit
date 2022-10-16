@@ -4,12 +4,13 @@
       "type": "kafkaTrigger",
       "name": "event",
       "direction": "in",
-      "brokerList": "BrokerList",
-      "topic": "topic",
-      "username": "$ConnectionString",
-      "password": "%KafkaPassword%",
+      "brokerList": "BootstrapServer",
+      "topic": "topic_0",
+      "username": "ConfluentCloudUsername",
+      "password": "ConfluentCloudPassword",
       "protocol": "saslSsl",
       "authenticationMode": "plain",
+      "cardinality" : "MANY",
       "consumerGroup": "$Default",
       "dataType": "binary"
     }

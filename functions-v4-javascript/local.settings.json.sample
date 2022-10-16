@@ -7,14 +7,15 @@
     , "CosmosDBConnectionString": ""
     , "EventGridConnectionUri": ""
     , "EventGridConnectionKey": ""
-    , "EventHubConnectionString": ""
+    , "EventHubsConnectionString": ""
     , "EventHubName": ""
     , "QueueStorageConnectionString": ""
     , "KafkaConnectionString": ""
     , "RabbitMQConnectionString": ""
     , "ServiceBusQueueConnectionString": ""
     , "ServiceBusTopicConnectionString": ""
-    , "SendGridConnectionString": ""
-    , "SignalRConnectionString": ""
+    , "BootstrapServer": ""
+    , "ConfluentCloudUsername": ""
+    , "ConfluentCloudPassword": ""
   }
 }

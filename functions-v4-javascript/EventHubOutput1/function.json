@@ -19,7 +19,7 @@
       "type": "eventHub",
       "name": "outputEventHubMessage",
       "eventHubName": "EventHubName",
-      "connection": "EventHubConnectionString",
+      "connection": "EventHubsConnectionString",
       "direction": "out"
     }
   ]

@@ -5,7 +5,7 @@
       "name": "eventHubMessages",
       "direction": "in",
       "eventHubName": "functions-testkit-eventhub",
-      "connection": "EventHubConnectionString",
+      "connection": "EventHubsConnectionString",
       "cardinality": "many",
       "consumerGroup": "$Default",
       "dataType": "string"

@@ -9,7 +9,6 @@ module.exports = async function (context, req) {
         ? "Hello, " + name + ". This HTTP triggered function executed successfully."
         : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
-
     var message = 'Message created at: ' + timeStamp +' '+ crypto.randomUUID();
     // how many message create?
     const numOfMessage = Math.floor(Math.random() * 10);
