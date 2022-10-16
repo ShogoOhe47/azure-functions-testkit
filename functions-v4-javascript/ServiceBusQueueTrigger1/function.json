@@ -4,8 +4,8 @@
       "name": "mySbMsg",
       "type": "serviceBusTrigger",
       "direction": "in",
-      "queueName": "myinputqueue",
-      "connection": ""
+      "queueName": "functions-testkit-queue",
+      "connection": "ServiceBusQueueConnectionString"
     }
   ]
 }

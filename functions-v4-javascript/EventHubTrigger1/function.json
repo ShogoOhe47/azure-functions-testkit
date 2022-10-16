@@ -4,8 +4,8 @@
       "type": "eventHubTrigger",
       "name": "eventHubMessages",
       "direction": "in",
-      "eventHubName": "samples-workitems",
-      "connection": "",
+      "eventHubName": "functions-testkit-eventhub",
+      "connection": "EventHubConnectionString",
       "cardinality": "many",
       "consumerGroup": "$Default",
       "dataType": "string"

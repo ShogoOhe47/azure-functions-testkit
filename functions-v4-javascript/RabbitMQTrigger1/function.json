@@ -4,8 +4,8 @@
       "name": "myQueueItem",
       "type": "rabbitMqTrigger",
       "direction": "in",
-      "queueName": "",
-      "connectionStringSetting": ""
+      "queueName": "functions-testkit-queue",
+      "connectionStringSetting": "RabbitMQConnectionString"
     }
   ]
 }

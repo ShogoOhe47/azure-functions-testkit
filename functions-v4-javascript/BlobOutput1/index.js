@@ -7,8 +7,7 @@ module.exports = async function (context, req) {
         ? "Hello, " + name + ". This HTTP triggered function executed successfully."
         : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
     
-    var hello_bin = (new TextEncoder).encode('こんにちは');
-    context.bindings.myOutputBlob = hello_bin;
+    context.bindings.myOutputBlob = 'Hello!';
 
     // BlobOutput では任意の出力先を指定することが出来ない。input に依存する
     // https://qiita.com/TsuyoshiUshio@github/items/7e10cc19170fad9dc6d9

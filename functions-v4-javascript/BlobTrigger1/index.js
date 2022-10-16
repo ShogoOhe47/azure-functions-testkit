@@ -4,4 +4,6 @@ module.exports = async function (context, myBlob) {
     // for TextFile: binary -> string
     // var text_decoder = new TextDecoder("utf-8");
     // context.log(text_decoder.decode(Uint8Array.from(myBlob).buffer));
+
+    context.log( typeof(myBlob) )
 };

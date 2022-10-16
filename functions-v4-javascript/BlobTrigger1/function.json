@@ -4,7 +4,7 @@
       "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "functions-testkit/{name}",
+      "path": "functions-testkit-blob/{name}",
       "connection": "BlobConnectionString"
     }
   ]

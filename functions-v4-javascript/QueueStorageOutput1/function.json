@@ -18,7 +18,7 @@
       "type": "queue",
       "direction": "out",
       "name": "myQueueItem",
-      "queueName": "outqueue",
+      "queueName": "functions-testkit-queue",
       "connection": "QueueStorageConnectionString"
     }
   ]

@@ -14,6 +14,13 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "name": "outputSbQueue",
+      "type": "serviceBus",
+      "queueName": "functions-testkit-queue",
+      "connection": "ServiceBusQueueConnectionString",
+      "direction": "out"
     }
   ]
 }

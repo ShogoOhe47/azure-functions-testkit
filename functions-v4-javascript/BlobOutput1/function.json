@@ -18,7 +18,7 @@
     {
       "name": "myOutputBlob",
       "type": "blob",
-      "path": "functions-testkit/BlobOutput1",
+      "path": "functions-testkit-blob/{DateTime}.txt",
       "connection": "BlobConnectionString",
       "direction": "out"
     }
