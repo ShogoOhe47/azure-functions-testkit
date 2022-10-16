@@ -4,8 +4,8 @@
       "name": "myQueueItem",
       "type": "queueTrigger",
       "direction": "in",
-      "queueName": "js-queue-items",
-      "connection": ""
+      "queueName": "functions-testkit-queue",
+      "connection": "QueueStorageConnectionString"
     }
   ]
 }

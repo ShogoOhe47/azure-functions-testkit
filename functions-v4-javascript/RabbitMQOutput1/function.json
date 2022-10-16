@@ -14,6 +14,13 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "type": "rabbitMQ",
+      "name": "outputMQMessage",
+      "queueName": "functions-testkit-queue",
+      "connectionStringSetting": "RabbitMQConnectionString",
+      "direction": "out"
     }
   ]
 }

@@ -19,7 +19,6 @@ module.exports = async function (context, req) {
         context.bindings.myQueueItem.push(i +"of"+ numOfMessage +' '+ message);
     }
     //context.bindings.myQueueItem = ["message 1","message 2"];
-    context.done();
     
     context.res = {
         // status: 200, /* Defaults to 200 */

@@ -20,7 +20,6 @@ module.exports = async function (context, req) {
     for (let i = 0; i <= numOfMessage; i++) {
         context.bindings.outputSbQueue.push(i +"of"+ numOfMessage +' '+ message);
     }
-    context.done();
 
     context.res = {
         // status: 200, /* Defaults to 200 */
