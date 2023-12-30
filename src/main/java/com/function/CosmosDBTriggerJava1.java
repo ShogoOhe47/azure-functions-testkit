@@ -17,10 +17,10 @@ public class CosmosDBTriggerJava1 {
         @CosmosDBTrigger(
             name = "items",
             databaseName = "cosmos",
-            collectionName = "collection",
-            leaseCollectionName="leases",
-            connectionStringSetting = "AzureWebJobsStorage",
-            createLeaseCollectionIfNotExists = true
+            containerName = "collection",
+            leaseContainerName="leases",
+            connection = "AzureWebJobsStorage",
+            createLeaseContainerIfNotExists = true
         )
         Object[] items,
         final ExecutionContext context
