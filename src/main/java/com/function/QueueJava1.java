@@ -13,7 +13,7 @@ public class QueueJava1 {
      * This function will be invoked when a new message is received at the specified path. The message contents are provided as input to this function.
      */
     @FunctionName("QueueTriggerJava1")
-    public void run(
+    public void QueueTriggerJava1(
             @QueueTrigger(name = "message", queueName = "functions-testkit-queue", connection = "QueueStorageConnectionString") String message,
             final ExecutionContext context
     ) {
@@ -45,5 +45,4 @@ public class QueueJava1 {
         // HTTP response
         return request.createResponseBuilder(HttpStatus.OK).body(response).build();
     }
-
 }

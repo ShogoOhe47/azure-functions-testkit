@@ -51,4 +51,5 @@ public class ServiceBusQueueJava1 {
 
         // HTTP response
         return request.createResponseBuilder(HttpStatus.OK).body(response).build();
-    }}
+    }
+}
