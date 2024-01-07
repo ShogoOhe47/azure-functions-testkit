@@ -7,7 +7,7 @@ import com.microsoft.azure.functions.*;
 /**
  * Azure Functions with Timer trigger.
  */
-public class TimerTriggerJava1 {
+public class TimerJava1 {
     /**
      * This function will be invoked periodically according to the specified schedule.
      */

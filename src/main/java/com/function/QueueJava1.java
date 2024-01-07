@@ -22,7 +22,6 @@ public class QueueJava1 {
 
 
     @FunctionName("QueueOutputJava1")
-    @StorageAccount("BlobConnectionString")
     public HttpResponseMessage QueueOutputJava1(
             @HttpTrigger(
                     name = "req",
