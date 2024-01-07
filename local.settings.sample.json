@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "BlobConnectionString": "UseDevelopmentStorage=true",
+    "ServiceBusQueueConnectionString": "Endpoint=sb://...",
+    "ServiceBusTopicConnectionString": "Endpoint=sb://...",
+    "QueueStorageConnectionString": "UseDevelopmentStorage=true",
+    "CosmosDBConnectionString": "AccountEndpoint=https://...",
+    "AzureWebJobsSendGridApiKey": "SG.XYZ...",
+    "EventHubsConnectionString": "Endpoint=sb://...",
+    "EventGridConnectionUri": "...",
+    "EventGridConnectionKey": "...",
+    "SignalRConnectionString": "Endpoint=https://...",
+    "RabbitMQConnectionString": "amqps://...",
+    "KafkaBootstrapServer": "...:9092",
+    "KafkaUsername": "",
+    "KafkaPassword": "",
+    "AzureWebJobs.BlobTriggerJava1.Disabled": true,
+    "AzureWebJobs.EventGridTriggerJava1.Disabled": true,
+    "AzureWebJobs.EventHubTriggerJava1.Disabled": true,
+    "AzureWebJobs.KafkaTriggerJava1.Disabled": true,
+    "AzureWebJobs.QueueTriggerJava1.Disabled": true,
+    "AzureWebJobs.RabbitMQTriggerJava1.Disabled": true,
+    "AzureWebJobs.ServiceBusQueueTriggerJava1.Disabled": true,
+    "AzureWebJobs.ServiceBusTopicTriggerJava1.Disabled": true
+  }
+}
