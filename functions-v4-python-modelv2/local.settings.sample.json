@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true"
+    , "BlobConnectionString": "DefaultEndpointsProtocol=..."
+    , "CosmosDBConnectionString": "AccountEndpoint=..."
+    , "EventGridConnectionUri": "https://..."
+    , "EventGridConnectionKey": ""
+    , "EventHubsConnectionString": "Endpoint=..."
+    , "QueueStorageConnectionString": "DefaultEndpointsProtocol=..."
+    , "RabbitMQConnectionString": "amqps://..."
+    , "ServiceBusQueueConnectionString": "Endpoint=..."
+    , "ServiceBusTopicConnectionString": "Endpoint=..."
+    , "KafkaBootstrapServer": "....cloudkafka.com:9094"
+    , "ConfluentCloudUsername": ""
+    , "ConfluentCloudPassword": ""
+    , "ConfluentCloudPrefix": ""
+  }
+}
