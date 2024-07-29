@@ -9,6 +9,7 @@ export async function BlobOutput1(request: HttpRequest, context: InvocationConte
     context.log(`Http function processed request for url "${request.url}"`);
 
     const name = request.query.get('name') || await request.text() || 'world';
+    context.extraOutputs.set(blobOutput, "Hello");
 
     return { body: `Hello, ${name}!` };
 };
@@ -17,6 +18,7 @@ app.http('BlobOutput1', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
     return: blobOutput,
+    extraOutputs: [blobOutput],
     handler: BlobOutput1
 });
 
